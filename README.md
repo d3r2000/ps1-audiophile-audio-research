@@ -18,6 +18,20 @@ component marking identifies `IC402` as an AKM `AK4310VM` 24-pin stereo DAC.
 The photograph is an original image of the repository owner's board. The PNG
 contains no EXIF, GPS, camera, author or embedded-text metadata.
 
+The solder-side macro below shows the two physical packages marked `2100` on
+the same reference board:
+
+![Two packages marked 2100 on the reference PU-8 board](images/pu8-11-two-njm2100.png)
+
+Both packages have the orientation dot at the upper-left as displayed. The
+standard top-view NJM2100 numbering is therefore pins `1–4` down the left and
+pins `8–5` down the right:
+
+![NJM2100 pin orientation for the photo-upper and photo-lower packages](images/njm2100-photo-orientation-pinout.svg)
+
+“Photo-upper” and “photo-lower” identify position in this photograph only.
+They do not assert PCB designators, electrical stage order or signal flow.
+
 ## What is published here
 
 - [Architecture review](PU8_AUDIO_ARCHITECTURE_REVIEW.md): evidence hierarchy,
@@ -25,6 +39,10 @@ contains no EXIF, GPS, camera, author or embedded-text metadata.
   and the measurements still required.
 - [Board photograph](images/pu8-11-ak4310vm.png): direct visual evidence for
   the target board's AK4310VM DAC.
+- [NJM2100 board photograph](images/pu8-11-two-njm2100.png): direct visual
+  evidence for the two packages marked `2100`.
+- [NJM2100 pin-orientation diagram](images/njm2100-photo-orientation-pinout.svg):
+  standard pins `1–8` applied to the orientation visible in that photograph.
 
 No Sony manuals, BIOS files, game images, third-party photographs, experimental
 RBF binaries or private review archives are included.

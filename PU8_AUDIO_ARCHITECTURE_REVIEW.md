@@ -26,6 +26,35 @@ The exact stage order, gains and small-signal capacitor network of this board
 have not been completely traced or measured. It must not be described as
 identical to every SCPH-1001/SCPH-1002 or later PU-8 revision.
 
+## Physical NJM2100 reference and pin orientation
+
+The repository owner's solder-side macro directly shows two packages marked
+`2100` on the target board:
+
+![Two packages marked 2100 on the reference PU-8 board](images/pu8-11-two-njm2100.png)
+
+Both orientation dots are at the upper-left as the photograph is displayed.
+Applying the standard NJM2100 top-view pinout gives:
+
+![NJM2100 pins 1–8 for the photo-upper and photo-lower packages](images/njm2100-photo-orientation-pinout.svg)
+
+| Pin | Standard NJM2100 function |
+|---:|---|
+| 1 | channel A output |
+| 2 | channel A inverting input |
+| 3 | channel A non-inverting input |
+| 4 | negative supply / ground in single-supply use |
+| 5 | channel B non-inverting input |
+| 6 | channel B inverting input |
+| 7 | channel B output |
+| 8 | positive supply |
+
+The pin functions and package options are documented by the
+[NJM2100 manufacturer product record](https://www.nisshinbo-microdevices.co.jp/en/products/operational-amplifier/spec/?product=njm2100).
+“Photo-upper” and “photo-lower” are deliberately positional labels. The crop
+does not expose PCB designators, and physical position does not prove which
+package is electrically first or whether the two networks are cascaded.
+
 ## Evidence hierarchy
 
 | Evidence | What it supports | Applicability limit |

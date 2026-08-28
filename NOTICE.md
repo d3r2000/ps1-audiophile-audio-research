@@ -2,13 +2,21 @@
 
 ## Original material
 
-The Markdown documents and `images/pu8-11-ak4310vm.png` are original project
-material and are distributed under GPL-2.0.
+The Markdown documents, SVG diagram and the two `pu8-11-*.png` photographs are
+original project material and are distributed under GPL-2.0.
 
 The photograph shows the repository owner's physical early PU-8
 `1-658-467-11` motherboard. It was selected because the `AKM AK4310VM` marking
 on `IC402` is directly readable. It has not been generated, reconstructed or
 substituted with an image of another board.
+
+`images/pu8-11-two-njm2100.png` is an original macro of the same reference
+board's solder side. It shows the two physical packages marked `2100`.
+
+`images/njm2100-photo-orientation-pinout.svg` applies the standard NJM2100
+top-view pin numbering to the package orientation visible in that macro. Its
+“photo-upper” and “photo-lower” labels are positional only and do not assign
+PCB reference designators or signal-stage order.
 
 ## External evidence
 
