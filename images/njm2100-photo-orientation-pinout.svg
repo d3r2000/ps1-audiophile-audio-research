@@ -9,7 +9,7 @@
     .title { fill: #17212b; font: 700 30px system-ui, sans-serif; }
     .subtitle { fill: #43505c; font: 20px system-ui, sans-serif; }
     .chip { fill: #ffffff; font: 700 25px system-ui, sans-serif; text-anchor: middle; }
-    .position { fill: #dce8f2; font: 700 21px system-ui, sans-serif; text-anchor: middle; }
+    .position { fill: #30475a; font: 700 21px system-ui, sans-serif; text-anchor: middle; }
     .pin { fill: #17212b; font: 700 20px ui-monospace, monospace; }
     .function { fill: #43505c; font: 18px system-ui, sans-serif; }
     .note { fill: #17212b; font: 19px system-ui, sans-serif; text-anchor: middle; }
